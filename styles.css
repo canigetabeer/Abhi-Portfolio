@@ -1,0 +1,113 @@
+/* Reset some default styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header .title {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 3rem 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
+ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+ul li {
+    font-size: 1.1rem;
+    margin-bottom: 0.8rem;
+}
+
+ul li strong {
+    color: #4CAF50;
+}
+
+.project {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.project p {
+    font-size: 1rem;
+    color: #555;
+}
+
+#contact ul {
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+#contact ul li {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
